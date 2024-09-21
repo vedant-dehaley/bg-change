@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+.contaier{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 800px;
+    overflow: hidden;
+    background-color: aliceblue;
+    position: absolute;
+    z-index: 5;
+    bottom:50px;
+    left: 500px;
+    border-radius: 50px;
+    gap: 0px;
+}
+
+.contaier img{
+    height: 180px;
+    width: 350px;
+    padding: 50px;
+    border-radius: 100px;
+}
+
+.contaier img:hover{
+    scale: 1.1;
+}
